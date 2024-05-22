@@ -1,0 +1,71 @@
+
+/*
+font-family= fonte da letra
+font-weight=normal, lighter,  bold, bolder(fina e grossa)
+font-style= italic etc
+font-size=tamanho
+
+  shothand(resumir tudo em um só)
+font-style-> font-weight -> font-size -> font-family
+
+---->font: italic bold 10px Arial<-----*/
+
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, #127369, #10403B);
+    height: 100%;
+}
+
+header{
+    background-color: aliceblue;
+    color: #10403B;
+    border-radius: 5px;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    height: 100px;
+    box-shadow: 5px 5px 15px black;
+    border: 10px solid black;
+    border-image-source: url('borda.png');
+    border-image-slice: 27;
+    border-image-repeat: repeat;
+}
+
+nav{
+    text-align: right;
+    color: black;
+
+}
+
+main{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgb(8, 31, 28);
+    width: 600px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+h2{
+   color: #4C5958;
+   text-align: left;
+   font-family: 'Courier New', Courier, monospace
+}
+p{
+    text-align: justify;
+    text-indent: 10px; /*para dar o espaço antes do paragrafo */
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
